@@ -7,5 +7,3 @@ Hello! This is a basic calculator that performs arithmetic operations (addition,
 * HTML
 * CSS
 * JavaScript
-
-<https://katerynarostovtseva.github.io/Calculator/>
