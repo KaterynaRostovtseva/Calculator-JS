@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Калькулятор!!!</h1>
+    </header>
+      <div class="calculator">
+             <div class="screen">
+                <p id="screen-aut"></p>
+             </div>
+             <div class="number-container">
+                <div class="numb number nine" onclick="functOnclick('9')">9</div>
+                <div class="numb number eight" onclick="functOnclick('8')">8</div>
+                <div class="numb number seven" onclick="functOnclick( '7')">7</div>   
+                <div class="numb number six" onclick="functOnclick( '6')">6</div>
+                <div class="numb number five" onclick="functOnclick( '5')">5</div>
+                <div class="numb number four" onclick="functOnclick('4')">4</div>
+                <div class="numb number three" onclick="functOnclick( '3')">3</div>
+                <div class="numb number two" onclick="functOnclick('2')">2</div>
+                <div class="numb number one" onclick="functOnclick( '1')">1</div>
+                <div class="numb number zero"onclick="functOnclick ('0')">0</div>
+                <div class="numb number point" onclick="functOnclick( '.')">.</div>
+                <div class="numb sign2 ac" onclick="clearAc()">ac</div>
+                <div class="numb sign2 plusminus" onclick="functOnclick('**')"> ** </div>
+                <div class="numb sign2 interest" onclick="functOnclick('%')">%</div>
+                <div class="numb sign plus" onclick="functOnclick( '+')">+</div>
+                <div class="numb sign minus" onclick="functOnclick( '-')">-</div>
+                <div class="numb sign multiply" onclick="functOnclick( 'x')">x</div>
+                <div class="numb sign share" onclick="functOnclick( '/')">/</div>
+                <div class="numb sign eqaul"onclick="functOnclick('=')">=</div>         
+             </div>
+      </div>
+      <script src="index.js"></script>
+</body>
+</html>
